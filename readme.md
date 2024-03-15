@@ -1,4 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code_to_text Project</title>
+</head>
 <body>
     <h1>code_to_text Project</h1>
     <p>A Python package to concatenate code files into a single document, with support for multiple programming languages and customizable ignore patterns.</p>
@@ -29,7 +35,16 @@ read_and_combine_files(input_directory='your_code_directory',
 node_modules/
 build/</code></pre>
 
+    <h2>Contributing</h2>
+    <p>We welcome contributions! Please follow these steps to contribute:</p>
+    <ol>
+        <li>Fork the repository.</li>
+        <li>Create a new branch for each feature or improvement.</li>
+        <li>Submit a pull request with a comprehensive description of changes.</li>
+    </ol>
+
     <h2>License</h2>
     <p>This project is open source and available under the MIT License. Benjamin QUINET.</p>
+
 </body>
 </html>
