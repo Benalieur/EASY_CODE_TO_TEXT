@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>code_to_text Project</title>
-</head>
+<html>
 <body>
     <h1>code_to_text Project</h1>
     <p>A Python package to concatenate code files into a single document, with support for multiple programming languages and customizable ignore patterns.</p>
