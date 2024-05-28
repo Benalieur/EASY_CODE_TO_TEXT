@@ -10,11 +10,11 @@
 
 <h2>Installation</h2>
 <p>The package can be installed via pip:</p>
-<pre><code>pip install code_to_text</code></pre>
+<pre><code>pip install easy-code-to-text</code></pre>
 
 <h2>Usage</h2>
 <p>After installation, you can use the package as follows:</p>
-<pre><code>from code_to_text import read_and_combine_files
+<pre><code>from code_to_text.code_to_text import read_and_combine_files
 
 read_and_combine_files(input_directory='your_code_directory',
                        output_file='your_output_file.txt',
@@ -22,8 +22,10 @@ read_and_combine_files(input_directory='your_code_directory',
 
 <h2>Configuration</h2>
 <h3>Ignore File</h3>
-<p>Create an ignore file (e.g., <code>.codeToTextIgnore</code>) in your project root with patterns to ignore:</p>
-<pre><code>*.log
+<p>Create an ignore file (e.g., <code>.codeToTextIgnore</code>) in your project root with patterns to ignore, exemple:</p>
+<pre><code>.venv
+.env
+*.log
 node_modules/
 build/</code></pre>
 
