@@ -35,8 +35,8 @@ __pycache__
 *.log
 
 # Your output and ignore file
-your_output_file.txt
-your_ignore_file.txt
+my_project_output.txt
+.codeToTextIgnore
 ```
 
 ## Usage

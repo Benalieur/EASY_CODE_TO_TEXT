@@ -89,12 +89,3 @@ def read_and_combine_files(input_directory, output_file, ignore_file_path):
                         outfile.write("\n```\n\n")
                 except Exception as e:
                     print(f"Unable to read file {file_path}: {e}")
-
-
-if __name__ == '__main__':
-
-    project_path = '/home/apprenant/Documents/Programmation/le_prix_demain_app'
-    output_file = '/home/apprenant/Documents/Programmation/le_prix_demain_app/code_to_text_project.txt'
-    ignore_file = '/home/apprenant/Documents/Programmation/le_prix_demain_app/text_ignore'
-
-    read_and_combine_files(project_path, output_file, ignore_file)
