@@ -26,8 +26,8 @@ read_and_combine_files(input_directory='your_code_directory',
 <pre><code>.venv
 .env
 *.log
-node_modules/
-build/</code></pre>
+your_output_file.txt
+your_ignore_file.txt</code></pre>
 
 <h2>Contributing</h2>
 <p>We welcome contributions! Please follow these steps to contribute:</p>
